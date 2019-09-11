@@ -1,0 +1,134 @@
+<html>
+<head>
+<style type="text/css">
+div.org
+{
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid blue;
+    background-color: black;
+}
+div.don
+{
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid blue;
+    float:right;
+    background-color: black;
+}
+div.con
+{
+padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid blue;
+    background-color: black;
+}
+
+footer {
+  padding: 0.5em;  
+    color: white;
+    background-color: black;
+    clear: left;
+border: 1px solid blue;
+    text-align: center;
+	width:100%;
+	bottom:0;
+	left:0;
+	position:fixed;
+}
+fieldset{
+  border:0px solid red;
+float:right;
+}
+body{
+  background-image: url("b5.jpg");
+   height:100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	}
+.Div3{
+  overflow: hidden;
+  background-color: #000000;
+border: 1px solid blue;
+width:100%;
+}
+
+.Div3 a {
+  float:left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 12px 18px;
+  text-decoration: none;
+  font-size: 19px;
+border: 1px solid blue;
+}
+
+.Div3 a:hover {
+  background-color: #EE0000;
+  color: black;
+
+}
+.Div3 a.active {
+    background-color: #00FF00;
+    color: white;
+}
+</style>
+</head>
+<body>
+	<div class="Div3">
+ <a class="Home" href="blood.php" aria-hidden="true">Home</a>
+                          <a class="Register" href="register.php" aria-hidden="true">Register</a>
+	       <a class="WhoNeedsBlood" href="who needs blood.php" aria-hidden="true">Who?</a>
+						  <a class="WhyDonateBlood" href="why donate blood.php" aria-hidden="true">Why?</a>
+                          <a class="Benifits" href="benifits.php" aria-hidden="true">What did they gain?</a>
+                          <a class="TipsOnDonating" href="tips.php" aria-hidden="true">Tips on donating blood</a>
+                          <a class="MostNeededBlood" href="most needed blood.php" aria-hidden="true">Most needed blood</a>
+                          
+                          <a class="ContactUs" href="contact.php" aria-hidden="true">Contact Us</a>
+	</div>		  
+									  
+					
+					
+<div class="org">
+<h3><a href="organiser.php">ORGANISER</a><h3>
+</div> 
+  
+<div class="don">
+<h3><a href="donorlogin.php">DONOR</a><h3>
+</div>   							
+                        </form>
+					</div>
+				
+<div class="Row">			<h2> <c>Welcome to Blood Bank<c></h2>							
+		</div>	<h3><i><b><p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<u>CSE WELCOMES YOU</u> to the Blood Bank database in our WebSite. If you are a donor , We appreciate you signing up online as a Donor. If you need blood we are happy to serve you.</p>
+		<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspThis blood donor list is hosted by <u>CRRE on behalf of CSE </u>(hereinafter referred to as Organizers) as a public service without any profit motive. This is a free service.</p>
+		<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspWhile the Organisers have taken all steps to obtain accurate and up-to-date information of potential blood donors, the Organisers and our batch members do not guarantee accuracy of the information contained here in or the suitability of the persons listed as any liability for direct or consequential damage to any person using this blood donor list including loss of life or damage due to infection of any nature arising out of blood transfusion from persons whose names have been listed in this website.</p>
+		<br>
+                                     <center><div class="home_quote"><c><h2>We request donors to update contact details regularly.</h2></c></center>
+		</div></b></i></h3>
+</div>					
+<style>
+.Home{
+		color: blue !important;			
+	}
+p{
+ color: cyan;
+}
+c{
+color: #00CC00;
+}
+u{
+color: #0000FF;
+}
+a{
+color: #0000FF;
+}
+</style>  
+<footer><a><b>developed by 5 Samaritans</b></a></footer>             	
+                	</body>
+</html>

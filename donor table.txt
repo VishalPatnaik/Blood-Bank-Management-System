@@ -1,0 +1,17 @@
+create table donor
+( E-MailId varchar(50) primary key,
+Name char(40),
+Pswd varchar(100),
+Confirm varchar(100),
+Country char(40),
+State char(40),
+City char(40),
+Location varchar(50),
+Pin-code int,
+Group varchar(10),
+Date date,
+Age real,
+Weight real,
+Gender char(10),
+phno int
+);
